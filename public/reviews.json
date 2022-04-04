@@ -3,36 +3,42 @@
         "id": "1",
         "name": "Tamim Iqbal",
         "Rating": 4.5,
-        "img": "https://yourimageshare.com/ib/VscBhraro7.jpg"
+        "img": "https://yourimageshare.com/ib/VscBhraro7.jpg",
+        "review": "It is a very good product.I have used it almost 3.5 years without facing any issues"
     },
     {
         "id": "2",
         "name": "Shakib Al Hasan",
         "Rating": 4.7,
-        "img": "https://yourimageshare.com/ib/m93Hl8S4nA.jpg"
+        "img": "https://yourimageshare.com/ib/m93Hl8S4nA.jpg",
+        "review": "wow wow wow...Super fast laptop..I just love it"
     },
     {
         "id": "3",
         "name": "Liton Das",
         "Rating": 4.2,
-        "img": "https://yourimageshare.com/ib/pqzy30oZVf.png"
+        "img": "https://yourimageshare.com/ib/pqzy30oZVf.png",
+        "review": "It is a good product.But i am not used to it."
     },
     {
         "id": "4",
         "name": "Sachin Tendulkar",
         "Rating": 4,
-        "img": "https://yourimageshare.com/ib/4DW5NwqZzW.png"
+        "img": "https://yourimageshare.com/ib/4DW5NwqZzW.png",
+        "review": "I like to watch movies whenever i am free.This laptop's display resolution is awesome to watch movies."
     },
     {
         "id": "7",
         "name": "MS Dhoni",
         "Rating": 5,
-        "img": "https://yourimageshare.com/ib/riBdLGhwIr.jpg"
+        "img": "https://yourimageshare.com/ib/riBdLGhwIr.jpg",
+        "review": "so far it is the best laptop i have ever used."
     },
     {
         "id": "6",
         "name": "Roger Federar",
         "Rating": 4.5,
-        "img": "https://yourimageshare.com/ib/9FZP5oW0l5.jpg"
+        "img": "https://yourimageshare.com/ib/9FZP5oW0l5.jpg",
+        "review": "I am a big fan of apple products"
     }
 ]

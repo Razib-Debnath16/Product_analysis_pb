@@ -1,8 +1,9 @@
 .product-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 50px !important;
+    margin: auto;
 }
 
 .product-details h2 {
@@ -16,5 +17,36 @@
 
 .product-container .product-image img {
     width: 500px;
+}
 
+.review {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.reviews-container img {
+    width: 100%;
+    height: 300px;
+}
+
+.reviews {
+
+    position: static;
+}
+
+.seeAllReview-btn {
+    position: absolute;
+    bottom: -450px;
+    justify-content: center;
+    align-items: center;
 }
