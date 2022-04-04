@@ -1,0 +1,20 @@
+.product-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.product-details h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.product-name {
+    color: blueviolet;
+}
+
+.product-container .product-image img {
+    width: 500px;
+
+}
