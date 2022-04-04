@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import useReviews from '../../Hooks/useReviews';
 import img from '../../Image/Apple-MacBook-Air-2020-Hero.jpg';
 import Review from '../Review/Review';
@@ -13,6 +14,10 @@ const Home = () => {
     // console.log(rest);
     ThreeReviews = [...rest];
     // console.log(ThreeReviews);
+    let navigate = useNavigate();
+    const GotoReviews = () => {
+        navigate = `/reviews`;
+    }
 
     return (
         <div>
@@ -21,7 +26,7 @@ const Home = () => {
                     <h2>Buy Your Next Laptop...</h2>
                     <h2><span className='product-name'>Apple MacBook Air-2020</span></h2>
                     <p>Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. An advanced Neural Engine for up to 9x faster machine learning.The longest battery life ever in a MacBook Air. And a silent, fanless design.This much power has never been this ready to go.</p>
-                    <button>Demo</button>
+                    <button className='All-btn'>Demo</button>
                 </div>
                 <div className='product-image'>
                     <img src={img} alt="" />
@@ -36,7 +41,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='seeAllReview-btn'>
-                <button >See All Reviews</button>
+                <button className='All-btn' onClick={GotoReviews}><strong>See All Reviews</strong></button>
             </div>
         </div>
     );

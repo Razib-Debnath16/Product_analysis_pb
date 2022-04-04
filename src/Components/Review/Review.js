@@ -9,13 +9,13 @@ const Review = (props) => {
             <Card className='card'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
-                    <Card.Title>User : {name}</Card.Title>
+                    <Card.Title> <strong>User :</strong> {name}</Card.Title>
                     <Card.Text>
-                        Comment: {review}
+                        <strong>Comment:</strong> {review}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <p>Rating : {Rating}</p>
+                    <p><strong>Rating :</strong> {Rating}</p>
                 </Card.Footer>
             </Card>
         </CardGroup>
