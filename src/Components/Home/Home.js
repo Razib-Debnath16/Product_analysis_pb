@@ -21,7 +21,7 @@ const Home = () => {
                     <h2>Buy Your Next Laptop...</h2>
                     <h2><span className='product-name'>Apple MacBook Air-2020</span></h2>
                     <p>Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. An advanced Neural Engine for up to 9x faster machine learning.The longest battery life ever in a MacBook Air. And a silent, fanless design.This much power has never been this ready to go.</p>
-                    <button className='All-btn'>Demo</button>
+                    <button className='All-btn' onClick={() => navigate("*")}>Demo</button>
                 </div>
                 <div className='product-image'>
                     <img src={img} alt="" />

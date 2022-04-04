@@ -5,6 +5,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Project Name 
 MacBook Air-2020 Reviews
 
+### Live Website Link
+( https://majestic-starburst-b77fa0.netlify.app/ )
+
+### Project Description
+* In this project we are reviewing Apple Macbook air 2020.
+* In Home page we show some of product details and three users review out of all reviews.
+* Some users reviews and ratings are shown in this project in the Review Section.
+* In dashboard we are showing 4 Recharts.
+* In the About section we describe Apple Macbook Air in details.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
