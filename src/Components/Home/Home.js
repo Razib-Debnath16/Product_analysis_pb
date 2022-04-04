@@ -11,13 +11,8 @@ const Home = () => {
     let ThreeReviews = [];
     let rest;
     rest = reviews.filter(review => review.id % 2 === 0)
-    // console.log(rest);
     ThreeReviews = [...rest];
-    // console.log(ThreeReviews);
     let navigate = useNavigate();
-    const GotoReviews = () => {
-        navigate = `/reviews`;
-    }
 
     return (
         <div>
@@ -41,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='seeAllReview-btn'>
-                <button className='All-btn' onClick={GotoReviews}><strong>See All Reviews</strong></button>
+                <button className='All-btn' onClick={() => navigate("/reviews")}><strong>See All Reviews</strong></button>
             </div>
         </div>
     );
